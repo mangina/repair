@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Строй Комплект</title>
+
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/font.css" >
+	<link rel="stylesheet" type="text/css" href="css/style.css" >
+	<!--[if IE 8]> <link rel= "stylesheet" type="text/css" href= "css/styleIE8.css" /> <![endif]-->
+
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="js/countdown.js"></script>
+	<script type="text/javascript" src="js/countdown1.js"></script>
+
+</head>
+
+<body>
+<script>
+	$(function () {
+		countdown(new Date("2015-12-31"));
+		countdown1(new Date("2015-12-31"));
+	});
+</script>
+
+		<div class="header wrap">
+			<div class="wrap__inner">
+				<a class="phone font__type__ubuntu__bold" href="tel:+74952211455">+7 (495) 221-14-55</a>
+				<div class="header__logo">
+					<a class="logo" href="#"><img src="img/logo.png" height="50" width="170" alt="Строй Комплект" /></a>
+				</div>
+				<span class="header__desc font__type__ubuntu__bold">Ремонт квартир и офисов в Москве и области</span>
+			</div>
+		</div>
+
+		<div class="interior wrap">
+			<div class="wrap__inner">
+                <div class="promo">
+				    <h2 class="promo__title font__type__ubuntu__bold">Дизайн-проект вашего нового интерьера</h2>
+				    <div class="promo__title font__type__ubuntu__bold promo__title_color_yellow ">Мы сделаем бесплатно!</div>
+				    <div class="promo__desc font__type__ubuntu__medium">Уникальная акция! приносите свой старый телефон и мы обменяем его на новый! Действие предложения ограничено!!!</div>
+                </div>
+				<div class="timer">
+					<div class="timer__title font__type__ubuntu__medium">До окончания акции осталось:</div>
+					<div class="countdown__style">
+						<div class="countdown__style__item" >
+							<div class="countdown__style__item__font-size" >Дней</div><div id="timerDays"></div>
+						</div>
+						<div class="countdown__style__item" >
+							<div class="countdown__style__item__font-size" >Часов </div><div id="timerHours"></div>
+						</div>
+						<div class="countdown__style__item" >
+							<div class="countdown__style__item__font-size" >Минут</div> <div id="timerMinutes"></div>
+						</div>
+						<div class="countdown__style__item" >
+							<div class="countdown__style__item__font-size" >Секунд</div> <div id="timerSeconds"></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="form">
+					<h3 class="form__title font__type__ubuntu__medium">Отправьте заявку на <br/> бесплатный дизайн-проект</h3>
+						<label class="form__label font__type__ubuntu__medium" for="login">Ваше имя</label>
+						<input class="form__input login" id="login" type="text" />
+						<label class="form__label font__type__ubuntu__medium" for="phone">Номер телефона</label>
+						<input class="form__input telephon" id="phone" type="text" />
+						<button class="form__send button" type="submit"><span class="button__text font__type__ubuntu__bold">Отправить заявку</span></button>
+				</div>
+			</div> 
+		</div>
+
+		<div class="statistics wrap">
+			<div class="wrap__inner wrap__inner__statistics">
+				<h3 class="statistics__title font__type__ubuntu__bold">Мы в цифрах</h3>
+				<div class="statistics-item">
+					<div class="statistics__number font__type__ubuntu__bold statistics__type__advertising">854</div>
+					<div class="statistics__description font__type__ubuntu__medium">Рекламных объявлений — средний размер камании для наших клиентов</div>
+				</div> 
+				<div class="statistics-item">
+					<div class="statistics__number font__type__ubuntu__bold statistics__type__years">15</div>
+					<div class="statistics__description font__type__ubuntu__medium">Долгих и интересных лет мы провели на рынке контекстной рекламы</div>
+				</div> 	
+				<div class="statistics-item">
+					<div class="statistics__number font__type__ubuntu__bold statistics__type__conversion">45<a class="statistics__number__small__size">%</a></div>
+					<div class="statistics__description font__type__ubuntu__medium">Средняя конверсия наших рекламных кампаний</div>
+				</div> 
+				<div class="statistics-item statistics-item__margin__right">
+					<div class="statistics__number font__type__ubuntu__bold statistics__type__days">2</div>
+					<div class="statistics__description font__type__ubuntu__medium">Рабочих дня нам нужно на разработку полноценной рекламной компании</div>
+				</div>		
+				<div class="statistics-item">
+					<div class="statistics__number font__type__ubuntu__bold statistics__type__people">14</div>
+					<div class="statistics__description font__type__ubuntu__medium">Человек работает в нашей команде</p></div>
+				</div> 
+				<div class="statistics-item">
+					<div class="statistics__number font__type__ubuntu__bold statistics__type__project">1 471</div>
+					<div class="statistics__description font__type__ubuntu__medium">Проект был разработан нашей компанией в 2013 году</div>
+				</div> 
+			</div> 
+		</div> 
+
+		<div class="project  wrap">
+			<div class="wrap__inner font__type__ubuntu__bold">
+				<h3 class="project__title">Наши проекты</h3>
+				<div class="project-item">
+					<div class="project__subtitle">Ремонт квартиры на улице Горчакова</div>
+					<a href="img/kv1.jpg" target="_blank"><img src="img/kv1.jpg" height="250" width="293" alt="Квартира 1" /></a>
+					<a href="img/kv2.jpg" target="_blank"><img src="img/kv2.jpg" height="250" width="293" alt="Квартира 2" /></a>
+					<a href="img/kv3.jpg" target="_blank"><img src="img/kv3.jpg" height="250" width="293" alt="Квартира 3" /></a>
+					<a href="img/kv4.jpg" target="_blank" ><img src="img/kv4.jpg" height="250" width="293" alt="Квартира 4" /></a>
+					<a href="img/kv5.jpg" target="_blank" ><img src="img/kv5.jpg" height="250" width="293" alt="Квартира 5" /></a>
+					<a href="img/kv6.jpg" target="_blank" ><img src="img/kv6.jpg" height="250" width="293" alt="Квартира 6" /></a>
+					<a href="img/kv7.jpg" target="_blank" ><img src="img/kv7.jpg" height="250" width="293" alt="Квартира 7" /></a>
+					<a href="img/kv8.jpg" target="_blank" ><img src="img/kv8.jpg" height="250" width="293" alt="Квартира 8" /></a>
+				</div>
+				<div class="project-item">
+					<div class="project__subtitle">Ремонт квартиры на улице Горчакова</div>
+					<a href="img/kv1.jpg" target="_blank" ><img src="img/kv1.jpg" height="250" width="293" alt="Квартира 1" /></a>
+					<a href="img/kv2.jpg" target="_blank" ><img src="img/kv2.jpg" height="250" width="293" alt="Квартира 2" /></a>
+					<a href="img/kv3.jpg" target="_blank" ><img src="img/kv3.jpg" height="250" width="293" alt="Квартира 3" /></a>
+					<a href="img/kv4.jpg" target="_blank" ><img src="img/kv4.jpg" height="250" width="293" alt="Квартира 4" /></a>
+					<a href="img/kv5.jpg" target="_blank" ><img src="img/kv5.jpg" height="250" width="293" alt="Квартира 5" /></a>
+					<a href="img/kv6.jpg" target="_blank" ><img src="img/kv6.jpg" height="250" width="293" alt="Квартира 6" /></a>
+					<a href="img/kv7.jpg" target="_blank" ><img src="img/kv7.jpg" height="250" width="293" alt="Квартира 7" /></a>
+					<a href="img/kv8.jpg" target="_blank" ><img src="img/kv8.jpg" height="250" width="293" alt="Квартира 8" /></a>
+				</div>
+				<div class="project-item">
+					<div class="project__subtitle">Ремонт квартиры на улице Горчакова</div>
+					<a href="img/kv1.jpg" target="_blank" ><img src="img/kv1.jpg" height="250" width="293" alt="Квартира 1" /></a>
+					<a href="img/kv2.jpg" target="_blank" ><img src="img/kv2.jpg" height="250" width="293" alt="Квартира 2" /></a>
+					<a href="img/kv3.jpg" target="_blank" ><img src="img/kv3.jpg" height="250" width="293" alt="Квартира 3" /></a>
+					<a href="img/kv4.jpg" target="_blank" ><img src="img/kv4.jpg" height="250" width="293" alt="Квартира 4" /></a>
+					<a href="img/kv5.jpg" target="_blank" ><img src="img/kv5.jpg" height="250" width="293" alt="Квартира 5" /></a>
+					<a href="img/kv6.jpg" target="_blank" ><img src="img/kv6.jpg" height="250" width="293" alt="Квартира 6" /></a>
+					<a href="img/kv7.jpg" target="_blank" ><img src="img/kv7.jpg" height="250" width="293" alt="Квартира 7" /></a>
+					<a href="img/kv8.jpg" target="_blank" ><img src="img/kv8.jpg" height="250" width="293" alt="Квартира 8" /></a>
+				</div>
+			</div> 
+		</div>
+
+		<div class="benefits wrap">
+			<div class="wrap__inner wrap__inner__benefits font__type__ubuntu__bold">
+				<h3 class="benefits__title">Наши премущества</h3>
+					<div class="benefits-item benefits__type__report">
+						<div class="benefits__text">
+							<div class="benefits__subtitle">Ежедневные отчеты</div>
+							<div class="benefits__description font__type__ubuntu__medium">Наша служба клиентской поддержки высылает вам ежедневный отчёт</div>
+						</div>
+					</div>
+
+					<div class="benefits-item benefits__type__warranty">
+						<div class="benefits__text">
+							<div class="benefits__subtitle">Гарантия 5 лет</div>
+							<div class="benefits__description font__type__ubuntu__medium benefits__description__width">Независимо от причины поломки гарантия действует пять лет</div>
+						</div>
+					</div>
+
+
+					<div class="benefits-item benefits__type__client">
+						<div class="benefits__text">
+							<div class="benefits__subtitle">1 345 довольных клиентов</div>
+							<div class="benefits__description font__type__ubuntu__medium">Мы отправим вам письменные отзывы почтой</div>
+						</div>
+					</div>
+
+					<div class="benefits-item benefits__type__work">
+						<div class="benefits__text">
+							<div class="benefits__subtitle">Работаем без обеда</div>
+							<div class="benefits__description font__type__ubuntu__medium">Питаемся солнцем воздухом и кофе</div>
+						</div>
+					</div>
+
+					<div class="benefits-item benefits__type__creative">
+						<div class="benefits__text">
+							<div class="benefits__subtitle">Взрывной креатив</div>
+							<div class="benefits__description font__type__ubuntu__medium benefits__description__width">Ошмётки мозгов после брейнстормов убираем 3 дня</div>
+						</div>
+					</div>
+
+					<div class="benefits-item benefits__type__advertising">
+						<div class="benefits__text">
+							<div class="benefits__subtitle">Эффективная реклама</div>
+							<div class="benefits__description font__type__ubuntu__medium">В социальных сетях, в директе и вообще везде</div>
+						</div>
+					</div>
+			</div> 
+		</div> 
+
+		<div class="responce wrap">
+			<div class="wrap__inner font__type__ubuntu__bold wrap__inner__responce__text-align__center">
+				<h3 class="responce__title">Отзывы наших клиентов</h3>
+				<div class="panels">
+					<div class="panel-left">
+							<div class="comment-item">
+								<div class = "comment font__type__ubuntu__regular">
+									Мы давно на рынке электроинструментов. Работали со множеством поставщиков, однако когда появился «Прогресс инструмент», решили сразу попробовать новое. Очень понравилась доступная цена. Клиенты, в основном, довольны. Бывает от партии к партии встречаются некоторые недоработки, но их полностью решает сервисный центр, расположенный в нашем городе.
+								</div>
+								<div class="comment-arrow"></div>
+								<div class="comment__autor">
+									<div class="comment__icon"><img src="img/person1.png" height="86" width="86" alt="Иванщенко Максим" /></div>
+									<div class="comment__info">
+										<div class="comment__name">Иващенко Максим</div>
+										<div class="comment__city font__type__ubuntu__regular">Новочеркасск</div>
+									</div>
+								</div>
+							</div>
+
+						<div class="comment-item">
+							<div class = "comment font__type__ubuntu__regular">
+								Еще Траут показал, что привлечение аудитории переворачивает рекламный макет, работая над проектом. Потребление конструктивно. Конкурент, согласно Ф.Котлеру, вполне вероятен. Инструмент маркетинга, не меняя концепции, изложенной выше, обычно правомочен. Основная стадия проведения рыночного исследования усиливает институциональный медиаплан, отвоевывая свою долю рынка.
+							</div>
+							<div class="comment-arrow"></div>
+							<div class="comment__autor">
+								<div class="comment__icon"><img src="img/person3.png" height="86" width="86" alt="Иванщенко Максим" /></div>
+								<div class="comment__info">
+									<div class="comment__name">Иващенко Максим</div>
+									<div class="comment__city font__type__ubuntu__regular">Новочеркасск</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="comment-item">
+							<div class = "comment font__type__ubuntu__regular">
+								Узнавание бренда экономит сублимированный отраслевой стандарт, оптимизируя бюджеты. Несмотря на сложности, спонсорство консолидирует рекламный бриф, учитывая современные тенденции. Фактор коммуникации, как следует из вышесказанного, тормозит институциональный процесс стратегического планирования, осознав маркетинг как часть производства.
+							</div>
+							<div class="comment-arrow"></div>
+							<div class="comment__autor">
+								<div class="comment__icon"><img src="img/person5.png" height="86" width="86" alt="Иванщенко Максим" /></div>
+								<div class="comment__info">
+									<div class="comment__name">Иващенко Максим</div>
+									<div class="comment__city font__type__ubuntu__regular">Новочеркасск</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="panel-right">
+
+						<div class="comment-item">
+							<div class = "comment font__type__ubuntu__regular">
+								Я Соловых Петр Васильевич очень благодарен ребятам Анатолию Денисенко и Иванову Валентину за установку окон, за их добросовестную работу и хорошее их отношение к нам, пожилым людям.
+								Буду рекомендовать всем знакомым и друзьям.
+								Так же благодарю и замерщика Петренко Геннадия, за отличный и точный замер.						</div>
+							<div class="comment-arrow"></div>
+							<div class="comment__autor">
+								<div class="comment__icon"><img src="img/person2.png" height="86" width="86" alt="Иванщенко Максим" /></div>
+								<div class="comment__info">
+									<div class="comment__name">Иващенко Максим</div>
+									<div class="comment__city font__type__ubuntu__regular">Новочеркасск</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="comment-item">
+							<div class = "comment font__type__ubuntu__regular">
+								Узнавание бренда экономит сублимированный отраслевой стандарт, оптимизируя бюджеты				</div>
+							<div class="comment-arrow"></div>
+							<div class="comment__autor">
+								<div class="comment__icon"><img src="img/person4.png" height="86" width="86" alt="Иванщенко Максим" /></div>
+								<div class="comment__info">
+									<div class="comment__name">Иващенко Максим</div>
+									<div class="comment__city font__type__ubuntu__regular">Новочеркасск</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="comment-item">
+							<div class = "comment font__type__ubuntu__regular">
+								Раскрутка переворачивает институциональный анализ зарубежного опыта, невзирая на действия конкурентов. Рекламная заставка, как следует из вышесказанного, существенно допускает социометрический отраслевой стандарт, работая над проектом. Представляется логичным, что ретроконверсия национального наследия неверно экономит CTR, не считаясь с затратами.
+							</div>
+							<div class="comment-arrow"></div>
+							<div class="comment__autor">
+								<div class="comment__icon"><img src="img/person6.png" height="86" width="86" alt="Иванщенко Максим" /></div>
+								<div class="comment__info">
+									<div class="comment__name">Иващенко Максим</div>
+									<div class="comment__city font__type__ubuntu__regular">Новочеркасск</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> 
+		</div> 
+
+
+		<div class="price wrap">
+			<div class="wrap__inner font__type__ubuntu__bold">
+				<h3 class="price__title">Наши цены</h3>
+					<div class="trariff">
+						<div class="tariff-item ">
+							<div class = "tariff-item__standard tariff-item__color__blue">
+								<div class = "tariff__caption font__type__ubuntu__regular">Тариф</div>
+								<div class = "name_caption">Стандартный</div>
+								<div class = "tariff__price tariff__price__type__ruble val">6 999</div>
+							</div>
+								<div class = "count font__type__ubuntu__regular"> Круглосуточная поддержка </div>
+								<div class = "count font__type__ubuntu__regular"> Ежедневные отчёты </div>
+								<div class = "count font__type__ubuntu__regular"> 500 объявлений </div>
+								<div class = "count font__type__ubuntu__regular"> 18 кв.м плёнки </div>
+								<div class = "count font__type__ubuntu__regular"> Красный стол или что-то в этом роде, чтобы показать высокую строчку </div>
+								<button class="button__type__order" type="button" value="Отправить"><div class="button__title font__type__ubuntu__bold">Заказать</div></button>
+						</div>
+
+						<div class="tariff-item ">
+							<div class = "tariff-item__maximum tariff-item__color__purpur">
+								<div class = "tariff__caption font__type__ubuntu__regular">Тариф</div>
+								<div class = "name_caption">Максимальный</div>
+								<div class = "tariff__price val">26 999</div>
+							</div>
+							<div class = "count font__type__ubuntu__regular"> Круглосуточная поддержка </div>
+							<div class = "count font__type__ubuntu__regular"> Ежедневные отчёты </div>
+							<div class = "count font__type__ubuntu__regular"> 500 объявлений </div>
+							<div class = "count font__type__ubuntu__regular"> 18 кв.м плёнки </div>
+							<div class = "count font__type__ubuntu__regular"> Красный стол или что-то в этом роде, чтобы показать высокую строчку </div>
+							<div class = "count font__type__ubuntu__regular"> Быстрая скорость </div>
+							<div class = "count font__type__ubuntu__regular"> Какой-то бонус </div>
+							<div class = "count__color__green font__type__ubuntu__regular"> Еще один подарок </div>
+							<div class = "count__color__green font__type__ubuntu__regular"> Killing offer </div>
+							<button class="button__type__order" type="button" value="Отправить"><div class="button__title font__type__ubuntu__bold">Заказать</div></button>
+						</div>
+
+						<div class="tariff-item ">
+							<div class = "tariff-item__advanced tariff-item__color__orange">
+								<div class = "tariff__caption font__type__ubuntu__regular">Тариф</div>
+								<div class = "name_caption">Продвинутый</div>
+								<div class = "tariff__price val">16 999</div>
+							</div>
+							<div class = "count font__type__ubuntu__regular"> Круглосуточная поддержка </div>
+							<div class = "count font__type__ubuntu__regular"> Ежедневные отчёты </div>
+							<div class = "count font__type__ubuntu__regular"> 500 объявлений </div>
+							<div class = "count font__type__ubuntu__regular"> 18 кв.м плёнки </div>
+							<div class = "count font__type__ubuntu__regular"> Красный стол или что-то в этом роде, чтобы показать высокую строчку </div>
+							<div class = "count font__type__ubuntu__regular"> Быстрая скорость </div>
+							<div class = "count__color__green font__type__ubuntu__regular"> Какой-то бонус </div>
+							<button class="button__type__order" type="button" value="Отправить"><div class="button__title font__type__ubuntu__bold">Заказать</div></button>
+						</div>
+					</div>
+			</div>
+		</div>
+
+		<div class="scheme-works wrap">
+			<div class="wrap__inner font__type__ubuntu__bold">
+				<h3 class="scheme__title">Схема работы</h3>
+					<div class="scheme-item scheme__type__request">
+						<div class="scheme__subtitle"></div>
+						<div class="scheme__description font__type__ubuntu__regular">Вы звоните нам или оставляете заявку на сайте</div>
+					</div> 
+					<div class="scheme-item scheme__type__order-details">
+						<div class="scheme__subtitle"></div>
+						<div class="scheme__description font__type__ubuntu__regular">В течение одного рабочего дня наш менеджер связывается с вами для обсуждения деталей заказа</div>
+					</div> 	
+					<div class="scheme-item scheme__type__contract">
+						<div class="scheme__subtitle"></div>
+						<div class="scheme__description font__type__ubuntu__regular">Мы готовим документы для подписания: договор и счёт на оплату</div>
+					</div> 
+					<div class="scheme-item scheme__type__payment">
+						<div class="scheme__subtitle"></div>
+						<div class="scheme__description font__type__ubuntu__regular">После проведения оплаты в размере 50% мы приступаем к работе</div>
+					</div> 
+					<div class="scheme-item scheme__type__completed-order">
+						<div class="scheme__subtitle"></div>
+						<div class="scheme__description font__type__ubuntu__regular">Мы выполняем заказ, присылаем закрывающие документы и сдаём проект</div>
+					</div> 
+					<div class="scheme-item scheme__type__signed-document">
+						<div class="scheme__subtitle"></div>
+						<div class="scheme__description font__type__ubuntu__regular">Вы подписываете зарывающие документы</div>
+					</div> 
+			</div> 
+		</div>
+
+		<div class="interior wrap">
+			<div class="wrap__inner">
+                <div class="promo">
+				    <h2 class="promo__title font__type__ubuntu__bold">Дизайн-проект вашего нового интерьера</h2>
+				    <div class="promo__title font__type__ubuntu__bold promo__title_color_yellow ">Мы сделаем бесплатно!</div>
+				    <div class="promo__desc font__type__ubuntu__medium">Уникальная акция! приносите свой старый телефон и мы обменяем его на новый! Действие предложения ограничено!!!</div>
+                </div>
+				<div class="timer">
+					<div class="timer__title font__type__ubuntu__medium">До окончания акции осталось:</div>
+					<div class="countdown__style">
+						<div class="countdown__style__item" >
+							<div class="countdown__style__item__font-size" >Дней</div><div id="timerDays1"></div>
+						</div>
+						<div class="countdown__style__item" >
+							<div class="countdown__style__item__font-size" >Часов </div><div id="timerHours1"></div>
+						</div>
+						<div class="countdown__style__item" >
+							<div class="countdown__style__item__font-size" >Минут</div> <div id="timerMinutes1"></div>
+						</div>
+						<div class="countdown__style__item" >
+							<div class="countdown__style__item__font-size" >Секунд</div> <div id="timerSeconds1"></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="form">
+					<h3 class="form__title font__type__ubuntu__medium">Отправьте заявку на <br/> бесплатный дизайн-проект</h3>
+						<label class="form__label font__type__ubuntu__medium" for="login">Ваше имя</label>
+						<input class="form__input login" id="login" type="text" />
+						<label class="form__label font__type__ubuntu__medium" for="phone">Номер телефона</label>
+						<input class="form__input telephon" id="phone" type="text" />
+						<button class="form__send button" type="submit"><span class="button__text font__type__ubuntu__bold">Отправить заявку</span></button>
+				</div>
+			</div> 
+		</div>
+		
+		<div class="footer wrap">
+			<div class="wrap__inner">
+				<a class="phone font__type__ubuntu__bold" href="tel:+74952211455">+7 (495) 221-14-55</a>
+				<div class="footer__logo">
+					<a class="logo" href="#"><img src="img/logo.png" height="50" width="170" alt="Строй Комплект" /></a>
+				</div>
+				<span class="footer__desc font__type__ubuntu__bold">Ремонт квартир и офисов в Москве и области</span>
+			</div>
+		</div>
+</body>
+</html>

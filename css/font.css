@@ -1,0 +1,41 @@
+@font-face {
+    font-family: Ubuntu-B;
+    src: url(../font/ubuntuB.eot?);
+    src: url(../font/ubuntuB.eot?#iefix) format('embedded-opentype'),
+    url(../font/ubuntuB.svg),
+    url(../font/ubuntuB.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Ubuntu-M;
+    src: url(../font/ubuntuM.eot?);
+    src: url(../font/ubuntuM.eot?#iefix) format('embedded-opentype'),
+    url(../font/ubuntuM.svg),
+    url(../font/ubuntuM.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Ubuntu-R;
+    src: url(../font/ubuntuR.eot?);
+    src: url(../font/ubuntuR.eot?#iefix) format('embedded-opentype'),
+    url(../font/ubuntuR.svg),
+    url(../font/ubuntuR.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font__type__ubuntu__bold {
+    font-family: Ubuntu-B;
+}
+
+.font__type__ubuntu__medium {
+    font-family: Ubuntu-M;
+}
+
+.font__type__ubuntu__regular {
+    font-family: Ubuntu-R;
+}
