@@ -2,7 +2,7 @@
     font-family: Ubuntu-B;
     src: url(../font/ubuntuB.eot?);
     src: url(../font/ubuntuB.eot?#iefix) format('embedded-opentype'),
-    url(../font/ubuntuB.svg),
+    url(../font/ubuntuB.svg#Ubuntu-B) format('svg'),
     url(../font/ubuntuB.ttf);
     font-weight: normal;
     font-style: normal;
@@ -12,7 +12,7 @@
     font-family: Ubuntu-M;
     src: url(../font/ubuntuM.eot?);
     src: url(../font/ubuntuM.eot?#iefix) format('embedded-opentype'),
-    url(../font/ubuntuM.svg),
+    url(../font/ubuntuM.svg#Ubuntu-M) format('svg'),
     url(../font/ubuntuM.ttf);
     font-weight: normal;
     font-style: normal;
@@ -22,7 +22,7 @@
     font-family: Ubuntu-R;
     src: url(../font/ubuntuR.eot?);
     src: url(../font/ubuntuR.eot?#iefix) format('embedded-opentype'),
-    url(../font/ubuntuR.svg),
+    url(../font/ubuntuR.svg#Ubuntu-R) format('svg'),
     url(../font/ubuntuR.ttf);
     font-weight: normal;
     font-style: normal;
